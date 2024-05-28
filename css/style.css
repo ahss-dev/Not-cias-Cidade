@@ -1,0 +1,47 @@
+/* Resetando configuração padrão do navegador 
+e aplicando fonte*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+/* Cabeçalho */
+#logo {
+    height: 150px;
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+    border: 1px solid red;
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(..//imagens/logo.png) no-repeat left top;
+    /* Melhor abordagem para esconder texto para o usuário
+    para não utilizar o display-none */
+    text-indent: -3000px;
+}
+
+header ul li{
+    width: 85%;
+    background: red;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid red;
+}
+
+header ul li a {
+    color: white;
+    cursor: pointer;
+}
+
+/* Corpo da página */
+
+body{
+    background: #fff url(../imagens/fundo.png) repeat-x;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+    border: 1px solid red;
+}

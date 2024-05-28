@@ -7,9 +7,10 @@ e aplicando fonte*/
 }
 /* Cabeçalho */
 #logo {
+    width: 750px;
+    margin: 0 auto;
     height: 150px;
     background: url(../imagens/detalhe-topo.png) no-repeat right top;
-    border: 1px solid red;
 }
 
 .logo {
@@ -21,17 +22,40 @@ e aplicando fonte*/
     text-indent: -3000px;
 }
 
-header ul li{
-    width: 85%;
-    background: red;
-    display: inline-block;
-    padding: 10px 10px 10px 10px;
-    border: 1px solid red;
+/* Barra de navegação */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-header ul li a {
+#topo ul {
+    background: #b10333;
+    margin-top: 35px;
+    float: left;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
     color: white;
-    cursor: pointer;
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeira a {
+    background: none;
+}
+
+#topo ul a:hover {
+    color: #69001d;
+    transition: 0.3s all;
 }
 
 /* Corpo da página */
@@ -43,5 +67,4 @@ body{
 #container {
     width: 750px;
     margin: 0 auto;
-    border: 1px solid red;
 }

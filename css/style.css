@@ -60,6 +60,20 @@ ul {
 
 /* Corpo da página */
 
+
+/* O link da página selecionada não aparece a mãozinha de clicar em link
+somente o restante dos links não selecionados */
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.fotos #navegacao a#fotos
+
+{
+    color: white;
+    background: #de003e;
+    cursor: text;
+}
+
 body{
     background: #fff url(../imagens/fundo.png) repeat-x;
 }
@@ -67,4 +81,55 @@ body{
 #container {
     width: 750px;
     margin: 0 auto;
+}
+/* Configurando layout de três colunas */
+
+#conteudo {
+    background: #f5f5f5;
+    margin-top: 90px;
+}
+
+#primario {
+    width: 270px;
+    background: pink;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+#secundario {
+    width: 270px;
+    margin: 0 0 20px 15px;
+    background: green;
+    float: left;
+}
+
+/* O Menu lateral vai ser apresentado na esquerda, porém se o CSS não for
+carregado, a sequência dos conteúdos continua sendo: primário, secundário e lateral.
+Este método é utilizado para leitores de tela, para que eles possam passar pelo conteúdo primeiro
+e por fim chegar ao menu lateral com mais opções de conteúdo */
+
+#lateral {
+    margin: 0 0 20px -750px;
+    width: 180px;
+    background: yellow;
+    float: left;
+}
+
+
+
+
+
+
+
+/* Rodapé */
+
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
 }

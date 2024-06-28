@@ -1,0 +1,2 @@
+O projeto demonstra a utilização de 3 layouts distintos, e com foco na acessibilidade
+e na inclusão digital.

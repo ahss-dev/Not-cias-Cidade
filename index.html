@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body class="home">
+<body id="tres-colunas" class="home">
     <section id="container">
         <header>
             <div id="logo">
@@ -42,9 +42,157 @@
         </header>
 
         <section id="conteudo">
-            <div id="primario">Primário</div>
-            <div id="secundario">Secundário</div>
-            <div id="lateral">Lateral</div>
+            <div id="primario">
+                <div class="caixa destaque">
+                    <h2>Destaque</h2>
+                    <div class="caixa-conteudo">
+                        <h3>Nova Legislação</h3>
+                        <img src="imagens/taxi.jpg" alt="Imagem de um taxí" width="100%">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                        <a href="nova-legislacao.html">Leia mais!</a>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <h2>Mundo</h2>
+                    <div class="caixa-conteudo">
+                        <ul id="lista-noticias">
+                            <li>
+                                <a href="#">
+                                    <img src="imagens/tecnologia.jpg" alt="" width="80">
+                                    <h3>Novas Tecnologias</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur...
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="imagens/tecnologia.jpg" alt="" width="80">
+                                    <h3>Novas Tecnologias</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur...
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="imagens/tecnologia.jpg" alt="" width="80">
+                                    <h3>Novas Tecnologias</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur...
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="imagens/tecnologia.jpg" alt="" width="80">
+                                    <h3>Novas Tecnologias</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur...
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div id="secundario">
+                <div class="caixa destaque">
+                    <h2>Última entrevista</h2>
+                    <div class="caixa-conteudo">
+                        <h3>Entrevista com FELIPE SILVA</h3>
+                        <img src="imagens/doutor.jpg" alt="Imagem de um taxí" width="100%">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                        <a href="#">Leia mais!</a>
+                    </div>
+                </div>
+
+                    <div class="caixa">
+                        <h2>Notícias recentes</h2>
+                        <div class="caixa-conteudo">
+                            <ul id="lista-noticias">
+                                <li>
+                                    <a href="#">
+                                        <img src="imagens/mundo.jpg" alt="" width="80">
+                                        <h3>Novas Empresas</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur...
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="imagens/tecnologia.jpg" alt="" width="80">
+                                        <h3>Novas Tecnologias</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur...
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="imagens/taxi.jpg" alt="" width="80">
+                                        <h3>Nova frota de taxís</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur...
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="imagens/cidade.jpg" alt="" width="80">
+                                        <h3>Crescimento da população</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur...
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <nav id="lateral">
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                            <li><a href="#">José Almeida</a></li>
+                            <li><a href="#">Felipe Silva</a></li>
+                            <li><a href="#">Renato Rodrigues</a></li>
+                            <li><a href="#">Abelardo Silveira</a></li>
+                            <li><a href="#">André Carlos</a></li>
+                            <li><a href="#">Márcio Mello</a></li>
+                            <li><a href="#">João Pedro</a></li>
+                            <li><a href="#">Fernando Weiss</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <h2>News</h2>
+                    <div class="caixa-conteudo">
+                       <form>
+                            <div>
+                                <label>E-mail:</label>
+                                <input type="text" name="email" id="email" placeholder="E-mail">
+                            </div>
+                            <div>
+                                <input class="submit" type="submit" value="Cadastrar">
+                            </div>
+                       </form>
+                    </div>
+                </div>
+            </nav>
+            
         </section>
     </section>
 
